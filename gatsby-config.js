@@ -15,7 +15,6 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
-	`gatsby-plugin-netlify-cms-paths`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -99,6 +98,7 @@ module.exports = {
         }]
       }
     },
+	`gatsby-plugin-netlify-cms-paths`,
     {
       resolve: 'gatsby-transformer-remark',
       options: {
